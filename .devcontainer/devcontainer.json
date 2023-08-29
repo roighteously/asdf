@@ -1,5 +1,9 @@
 {
     "features": {
         "ghcr.io/devcontainers/features/desktop-lite": {},
-    }
+    },
+    "postStartCommand": "sh start.sh",
+    "forwardPorts": [
+        6080
+    ]
 }
